@@ -1,0 +1,65 @@
+{
+  "name": "HotelRoom",
+  "address": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "BookRoom",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_occupant",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Occupy",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "currentStatus",
+      "outputs": [
+        {
+          "internalType": "enum HotelRoom.Statuses",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address payable",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "Dapp-University.git/HotelRoom.sol",
+  "pinnedAt": 1722465711464
+}
